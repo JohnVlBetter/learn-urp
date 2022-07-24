@@ -18,6 +18,7 @@ Shader "LJ/BlinnPhong"
 
            #include"Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
            #include"Packages/com.unity.render-pipelines.universal/ShaderLibrary/Input.hlsl"
+           #include"Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
 
            struct Attributes{
                 float4 vertex:POSITION;
