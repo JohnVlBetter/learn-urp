@@ -31,7 +31,7 @@ Shader "LJ/MultipleLighting"
             #pragma shader_feature _AdditionalLights
 
             #pragma vertex vert
-            #pragma fragment frag
+            #pragma fragment frag         
             
             #include"Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
             
